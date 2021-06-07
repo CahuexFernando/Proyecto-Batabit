@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+:root{
+
+--naranja: #F7931A;
+--blanco-hueso: #FFE9D5;
+--celeste: #1A9AF7;
+--cielo: #E7F5FF;
+--negro: #201E1C;
+--negro2: #282623;
+--gris: #BABABA;
+--blanco-claro: #FAF8F7;
+--blanco: #FFFFFF;
+}
