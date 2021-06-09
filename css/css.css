@@ -15,3 +15,9 @@
 --blanco-claro: #FAF8F7;
 --blanco: #FFFFFF;
 }
+section{
+    height: 200rem;
+    width:  37.5rem;
+    margin: auto;
+    margin-bottom: 10px;
+}

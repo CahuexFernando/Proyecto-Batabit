@@ -15,3 +15,15 @@
 --blanco-claro: #FAF8F7;
 --blanco: #FFFFFF;
 }
+.Fernando{
+    background-color:var(--negro2);
+    padding-top: 10rem;
+}
+.titulo{
+    height: auto;
+    width: 35rem;
+    text-align: center;
+    margin: auto;
+    color: var(--blanco);
+    font-size: 2rem;
+}
