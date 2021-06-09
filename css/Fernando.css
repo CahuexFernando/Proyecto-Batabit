@@ -16,7 +16,7 @@
 --blanco: #FFFFFF;
 }
 .Fernando{
-    background-color:var(--negro2);
+    background-color:var(--negro);
     padding-top: 10rem;
 }
 .titulo{
@@ -26,4 +26,12 @@
     margin: auto;
     color: var(--blanco);
     font-size: 2rem;
+}
+.texto{
+    height: auto;
+    width: 35rem;
+    margin-top: 1.5rem;
+    margin-left: 2.8rem;
+    color: var(--gris);
+    font-size: 1.7rem;
 }
