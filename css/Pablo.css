@@ -15,3 +15,9 @@
 --blanco-claro: #FAF8F7;
 --blanco: #FFFFFF;
 }
+.Pablo{
+    background-color: var(--blanco-claro);
+}
+.Caja-Frase{
+    background-color: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);;
+}
