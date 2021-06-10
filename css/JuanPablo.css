@@ -17,5 +17,106 @@
 }
 .primera1{
     height: 200rem;
-    width:  37.5rem;
+    width: 37.5rem;
+    background-color: var(--blanco-claro);
 }
+.segunda2{
+    height:40rem ;
+    width:37.5rem ;
+    position: relative;
+    display: inline-block;
+}
+.imagen1{
+    height:43rem ;
+    width:37.5rem ;
+}
+.texto1{
+    position: absolute;
+    top: 7rem;
+    left: 9rem;
+    color: var(--blanco);
+    font-size: 2.5rem;
+}
+.texto2{
+    text-align: center;
+    margin-top:7rem;
+    font-size: 3rem;
+}
+.texto3{
+    text-align: center;
+    margin-top:3.2rem;
+    font-size: 1.8rem;
+    color: var(--gris)
+}
+.tercera3{
+    height: 35rem ;
+    width: 25rem;
+    background-color: var(--blanco);
+    margin-top: 7rem;
+    margin-left: 6.5rem;
+    border-radius: 1.5rem;
+    position: absolute;
+}
+.cuarta4{
+    height: 4rem;
+    width: 13rem;
+    background-color: var(--naranja);
+    border-radius: 1.5em;
+    color: var(--blanco);
+    text-align: center;
+    position: relative;
+    bottom: 2rem;
+    left: 6rem;
+}
+.texto4{
+    position: relative;
+    top:1rem;
+}
+.quinto5{
+    height: 17rem;
+    width: 20rem;
+    margin-left: 2.5rem;
+}
+.texto5{
+    text-align: center;
+    font-size: 2rem;
+}
+.texto6{
+    position: relative;
+    left: 5rem;
+    top: 2rem;
+}
+.texto7{
+    position: relative;
+    left: 6.5rem;
+    font-size: 6rem;
+    bottom: 1rem;
+}
+.texto8{
+    text-align: center;
+    color: var(--gris);
+}
+.sexto6{
+    height: 7rem;
+    width: 20rem;
+    background-color: var(--blanco-claro);
+    margin-top: 4rem;
+    border-color: var(--naranja);
+    border-style: solid;
+    position: absolute;
+    border-radius: 0.5rem;  
+}
+.texto9{
+    position: relative;
+    top: 0.3rem;
+    left: 1rem;
+    font-size: 2rem;
+
+}
+.flecha{
+    position: relative;
+    top: 1.2rem;
+    height: 4rem;
+    left: 0.3rem;
+}
+
