@@ -1,44 +1,31 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'DM Sans', sans-serif;
-}
-:root{
 
---naranja: #F7931A;
---blanco-hueso: #FFE9D5;
---celeste: #1A9AF7;
---cielo: #E7F5FF;
---negro: #201E1C;
---negro2: #282623;
---gris: #BABABA;
---blanco-claro: #FAF8F7;
---blanco: #FFFFFF;
-}
 .Fernando{
     background-color:var(--negro);
     padding-top: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
 }
-.titulo-Fernando{
-    height: auto;
+.caja-inicio2{
+    align-items: center;
+    text-align: center;
+}
+.titulo-2{
     width: 34rem;
     text-align: center;
-    margin: auto;
     color: var(--blanco);
     font-size: 2rem;
 }
-.texto-Fernando{
-    height: auto;
+.texto-2{
     width: 35rem;
-    margin-top: 1.5rem;
-    margin-left: 2.8rem;
     color: var(--gris);
     font-size: 1.7rem;
 }
-.caja1-Fernando, .caja2-Fernando, .caja3-Fernando, .caja4-Fernando{
+.caja1-2, .caja2-2, .caja3-2, .caja4-2{
     width: 33rem;
     height: 20rem;
-    margin: auto;
     margin-top: 2rem;
     background-color: var(--negro2);
     -webkit-box-shadow: 0px 6px 2px -3px rgba(0,0,0,0.56);
@@ -54,13 +41,13 @@ box-shadow: 0px 6px 2px -3px rgba(0,0,0,0.56);
     margin-top: 2rem;
     margin-left: 2rem;
 }
-.titulo-cajas{
+.titulo-cajas2{
         color: var(--blanco);
         font-size: 2.2rem;
         margin-left: 2rem;
         margin-top: 1rem;
 }
-p{
+.texto-cajas2{
     margin-top: 0.5rem;
     margin-left: 2rem;
     margin-right: 0.5rem;
