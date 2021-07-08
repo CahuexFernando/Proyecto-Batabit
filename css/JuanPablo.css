@@ -15,25 +15,20 @@
 --blanco-claro: #FAF8F7;
 --blanco: #FFFFFF;
 }
-/** caja padre**/
-.primera1{
-    height: 200rem;
-    width: 37.5rem;
-    background-color: var(--blanco-claro);
+.JuanPablo{
+    background-color:var(--blanco-claro);
 }
-/** caja de imagen **/
 .segunda2{
     height:40rem ;
     width:37.5rem ;
     position: relative;
     display: inline-block;
+
 }
-/** imagen mujer **/
 .imagen1{
     height:43rem ;
     width:37.5rem ;
 }
-/** textos de imagen **/
 .texto1{
     position: absolute;
     top: 7rem;
@@ -41,7 +36,6 @@
     color: var(--blanco);
     font-size: 2.5rem;
 }
-/** texto debajo de imagen **/
 .texto2{
     text-align: center;
     margin-top:7rem;
@@ -53,7 +47,6 @@
     font-size: 1.8rem;
     color: var(--gris)
 }
-/** fin de texto e inicio de caja de suscripción **/
 .tercera3{
     height: 35rem ;
     width: 25rem;
@@ -63,9 +56,9 @@
     border-radius: 1.5rem;
     position: absolute;
     bottom: 0.5rem;
-    top: 470rem;
+    top: 350rem;
 }
-/** caja de texto naranja **/
+
 .cuarta4{
     height: 4rem;
     width: 13rem;
@@ -81,7 +74,6 @@
     position: relative;
     top:1rem;
 }
-/** caja de texto **/
 .quinto5{
     height: 17rem;
     width: 20rem;
@@ -106,7 +98,7 @@
     text-align: center;
     color: var(--gris);
 }
-/** caja de botton **/
+
 .sexto6{
     height: 7rem;
     width: 20rem;
@@ -126,14 +118,14 @@
     font-size: 2rem;
 
 }
-/** imagen de la caja boton **/
+
 .flecha{
     position: relative;
     top: 1.2rem;
     height: 4rem;
     left: 0.3rem;
 }
-/** imagenes de flechas de los extremos de la caja **/
+
 .a{
     position: relative;
     height: 2.5rem;
@@ -146,7 +138,6 @@
     bottom: 3rem;
     right: 9.5rem;
 }
-/** caja inferior **/
 .septimo7{
     height: 15rem;
     width: 37.5rem;
@@ -155,7 +146,6 @@
     top: 7rem;
     right: 9rem;
 }
-/** caja de texto de caja inferior **/
 .octavo8{
     height: 10rem;
     width: 30rem;
@@ -190,19 +180,25 @@
     bottom: 6.5rem;
     left: 21rem;
 }
-.texto13{
+.nov9{
+    height: 3.5rem;
+    width: 10rem;
+    position: relative;
+    bottom: 7rem;
+    left: 19rem;
+}.texto13{
     position: relative;
     font-size: 2.5rem;
     color:var(--blanco);
-    bottom: 6rem;
-    left: 19rem;
+
 }
 .texto14{
     position: relative;
     font-size: 1.3rem;
     color:var(--blanco);
-    bottom: 8.5rem;
-    left: 20.5rem;
+    bottom: 3rem;
+    left: 1.5rem;
+
 }
 .rectangulo1{
     height: 35rem ;
@@ -222,4 +218,8 @@
     bottom: 25.3rem;
     border-bottom-left-radius: 1.5rem;
     border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 0rem;
+    white-space: normal !important;
 }
+
+
