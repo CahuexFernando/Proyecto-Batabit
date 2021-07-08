@@ -16,8 +16,8 @@
 --blanco: #FFFFFF;
 }
 section{
-    height: 200rem;
+    box-sizing: border-box;
     width:  37.5rem;
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom:3rem;
 }
