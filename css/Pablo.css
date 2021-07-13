@@ -146,6 +146,9 @@
     font-weight: 700; 
     margin-left: 6rem;
 }
+.Comisiones{
+    display: none; 
+}
 .Extremos-Izq{
     width: 14.8rem;
     height: 5rem;
@@ -218,6 +221,19 @@
     padding-left: 1rem;
     box-sizing: border-box;
     padding: 0.8rem;
+}
+.Valores-1{
+    display: none;
+}
+.Valores-1 p{
+    display: none;
+}
+.Valores-2{
+    display: none;
+}
+.Valores-2 p{
+    display: none;
+    
 }
 /*Parte de actualizado*/
 .Caja-Actualizar{
@@ -328,7 +344,7 @@
 .Caja-Img{
    display: flex;
    width: 70rem;
-   padding-top: 3rem;
+   padding-top: 5rem;
    margin: auto;
 }
 .Bitcoin{
@@ -351,25 +367,56 @@
     text-align: center;
     font-size: 2rem;
     color: rgb(180, 180, 180);
-    margin-top: 2.5rem;
+    margin-top: 3rem;
 }
 /*Parte de monedas*/ 
+.Caja-Principal{
+    width: 55rem;
+    height: 50rem;
+    margin: auto;
+    margin-top: 8rem;
  }
- .Caja-Precios{
-    width: 25rem;
-    height: 40rem;
-    margin-left: 15rem;
+.Caja-1{
+    width: 22rem;
+    height: 50rem;
+    margin-top: 2rem; 
+    float: left;
+ }
+ .Caja-2{
+    width: 22rem;
+    height: 50rem;
+    margin-left: 2rem;
+    margin-top: 2rem; 
+    float: right;
+ }
+.Caja-Precios{
+    width: 22rem;
+    height: 25rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row; 
+    float: left;
+ }
+ .Caja-Comisiones{
+    width: 22rem;
+    height: 25rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: row;
-    margin-top: 2rem; 
  }
  .Monedas{
      font-size: 2.5rem;
+     margin-left: 0.5rem;
      color: var(--naranja);
-     margin-top: 3rem;
      text-align: left;
      font-weight: 700; 
-     margin-left: 15rem;
+}
+.Comisiones{
+    font-size: 2.5rem;
+    margin-left: 0.5rem;
+    color: var(--celeste);
+    text-align: left;
+    font-weight: 700; 
 }
  .Extremos-Izq{
      width: 10.8rem;
@@ -444,4 +491,44 @@
      box-sizing: border-box;
      padding: 0.8rem;
  }
+  /*Parte de valores*/
+.Valores-1{
+    display: flex;
+     width: 18rem;
+     height: 5rem;
+     background-color:hsla(0, 100%, 83%, 0.301);
+     border-radius: 1rem;
 }
+.Valores-1 p{
+    margin: auto;
+     font-size: 2em;
+}
+.Valores-2{
+    display: flex;
+     width: 18rem;
+     height: 5rem;
+     background-color:hsla(205, 100%, 72%, 0.301);
+     border-radius: 1rem;
+}
+.Valores-2 p{
+    margin: auto;
+    font-size: 2rem;
+}
+ /*Parte de actualizado*/
+.Caja-Actualizar{
+    display: none;
+     margin: auto;
+     margin-top: -15rem;
+     width: 25rem;
+     height: 6rem;
+     background-color:var(--blanco-hueso);
+     border-radius: 0.5rem;
+     
+}
+.Caja-Actualizar p{
+    display:none; 
+    margin: auto;
+     font-size: 1.60rem;
+}
+}
+
