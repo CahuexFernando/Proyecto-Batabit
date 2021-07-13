@@ -15,8 +15,12 @@
 --blanco-claro: #FAF8F7;
 --blanco: #FFFFFF;
 }
+@media (width: 375px){
 .Pablo{
     background-color: var(--blanco-claro);
+    width:  37.5rem;
+    margin: auto;
+    margin-bottom: 10px;
 }
 .Caja-Frase{
     width: 37.5rem;
@@ -224,8 +228,220 @@
      height: 6rem;
      background-color:var(--blanco-hueso);
      border-radius: 0.5rem;
+     
 }
 .Caja-Actualizar p{
      margin: auto;
      font-size: 1.60rem;
+}
+}
+@media (width: 768px){
+.Pablo{
+        background-color: var(--blanco-claro);
+        width:  76.8rem;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+.Caja-Frase{
+        width: 76.8rem;
+        height: 50rem;
+        background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+        padding: 6rem 12rem 6rem 12rem;
+        
+        box-sizing: border-box;
+}
+  /*Parte de imagen y logo*/
+  .Frase-Img{
+    width: 30rem;
+    display: flex;
+    margin: auto;
+    margin-left: 15rem;
+}
+.Batatabit{
+    font-size: 4rem;
+    color: var(--naranja); 
+    font-weight: 500;
+    margin-left:1rem;
+}
+.batata{
+    width: 5rem;
+   float: left;
+   margin-top: 0.9rem;
+}
+/*Parte de frases*/
+
+.Frase-Revolucion{
+    font-size: 5rem;
+    
+    color: var(--blanco-claro);
+    margin-top: 2.5rem;
+    text-align: center;
+    font-weight: 500;
+    
+}
+.Frase-Ayuda{
+    text-align: center;
+    font-size: 2.3rem;
+    color: var(--blanco-hueso);
+    margin-top: 2.5rem;
+}
+/*Parte de conoce nuestros planes*/
+.Caja-Planes{
+    display: flex;
+    margin: auto;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    box-sizing: border-box;
+    width: 30rem;
+    height: 6rem;
+    background-color:var(--blanco-claro);
+    border-radius: 0.5rem;
+    margin-top: -4rem;
+    box-shadow: -4px -5px 69px -22px rgba(0,0,0,0.52);
+    -webkit-box-shadow: -4px -5px 69px -22px rgba(0,0,0,0.52);
+    -moz-box-shadow: -4px -5px 69px -22px rgba(0,0,0,0.52);
+}
+.Frase-Planes{
+    width: 27rem;
+    height: 6rem;
+    border-radius: 0.5rem;
+    background-color: var(--blanco-claro);
+}
+.Img-Planes{
+   width: 4rem;
+   height: 6rem;
+   border-radius: 0.5rem;
+   background-color: var(--blanco-claro);
+}
+.Planes{
+   font-size: 2rem;
+   font-weight: 595; 
+   text-align: center;
+   color: var(--negro2);
+   padding-top: 1.5rem;
+}
+.Flecha-Planes{
+ width: 3rem;
+ transform:rotate(90deg);
+ margin-top:1.4rem;
+}
+/*Parte de imagen grande*/
+.Caja-Img{
+   display: flex;
+   width: 70rem;
+   padding-top: 3rem;
+   margin: auto;
+}
+.Bitcoin{
+   width: 25rem;
+   margin: auto;
+}
+/*Parte de frase*/
+.Caja-Frase-2{
+    padding: 1rem 15rem 2rem 15rem;
+    box-sizing: border-box;
+}
+ .Frase-2{
+    font-size: 4rem;
+    color: var(--negro2);
+    margin-top: 2.8rem;
+    text-align: center;
+    font-weight: 700;
+}
+.Informacion{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(180, 180, 180);
+    margin-top: 2.5rem;
+}
+/*Parte de monedas*/ 
+ }
+ .Caja-Precios{
+    width: 25rem;
+    height: 40rem;
+    margin-left: 15rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem; 
+ }
+ .Monedas{
+     font-size: 2.5rem;
+     color: var(--naranja);
+     margin-top: 3rem;
+     text-align: left;
+     font-weight: 700; 
+     margin-left: 15rem;
+}
+ .Extremos-Izq{
+     width: 10.8rem;
+     height: 5rem;
+     background-color: var(--blanco);
+     margin: 0.1rem;
+     font-size: 2rem;
+     color:var(--gris);
+     border-radius: 1rem 0.1rem 0.1rem 0.1rem ;
+     padding-left: 1rem;
+     box-sizing: border-box;
+     padding: 0.8rem;
+ }
+ .Extremos-Izq-i{
+     width: 10.8rem;
+     height: 5rem;
+     background-color: var(--blanco);
+     margin: 0.1rem;
+     font-size: 2rem;
+     color:var(--gris);
+     border-radius: 0.1rem 0.1rem 0.1rem 1rem ;
+     padding-left: 1rem;
+     box-sizing: border-box;
+     padding: 0.8rem;
+ }
+ .Centros-Izq{
+     width: 10.8rem;
+     height: 5rem;
+     background-color: var(--blanco);
+     margin: 0.1rem;
+     font-size: 1.85rem;
+     color:var(--gris);
+     border-radius: 0.1rem 0.1rem 0.1rem 0.1rem ;
+     padding-left: 1rem;
+     box-sizing: border-box;
+     padding: 0.8rem;
+ }
+ .Extremos-Drh{
+     width: 10.8rem;
+     height: 5rem;
+     background-color: var(--blanco);
+     margin: 0.1rem;
+     font-size: 2rem;
+     color:grey;
+     border-radius: 0.1rem 1rem 0.1rem 0.1rem ;
+     padding-left: 1rem;
+     box-sizing: border-box;
+     padding: 0.8rem;
+ }
+ .Extremos-Drh-i{
+     width: 10.8rem;
+     height: 5rem;
+     background-color: var(--blanco);
+     margin: 0.1rem;
+     font-size: 2rem;
+     color:grey;
+     border-radius: 0.1rem 0.1rem 1rem 0.1rem ;
+     padding-left: 1rem;
+     box-sizing: border-box;
+     padding: 0.8rem;
+ }
+ 
+ .Centros-Drh{
+     width: 10.8rem;
+     height: 5rem;
+     background-color: var(--blanco);
+     margin: 0.1rem;
+     font-size: 1.85rem;
+     color:grey;
+     border-radius: 0.1rem 0.1rem 0.1rem 0.1rem ;
+     padding-left: 1rem;
+     box-sizing: border-box;
+     padding: 0.8rem;
+ }
 }
