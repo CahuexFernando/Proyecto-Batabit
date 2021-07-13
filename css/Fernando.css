@@ -56,3 +56,42 @@ box-shadow: 0px 6px 2px -3px rgba(0,0,0,0.56);
     color: var(--gris);
     font-size: 1.5rem;
 }
+/* soporte para ipad*/
+@media only screen and (width:1024px) {
+    .Fernando{
+        width: auto;
+        padding: 0;
+    }
+    .cajas-contenido1{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: 20rem;
+      
+        margin-top: 10rem;
+    }
+    .cajas-contenido2{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: 20rem;
+        
+    }
+    .caja1-2, .caja2-2, .caja3-2, .caja4-2{
+        width: 30rem;
+        height: 15rem;
+       
+    }
+    .titulo-2{
+        margin-top: 5rem;
+    }
+    .texto-2{
+        margin-top: 2rem;
+    }
+    .titulo-cajas2{
+        font-size: 1.8rem;
+    }
+    .texto-cajas2{
+        font-size: 1.3rem;
+    }
+}
