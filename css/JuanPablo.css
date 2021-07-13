@@ -1,17 +1,208 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'DM Sans', sans-serif;
-}
-:root{
 
---naranja: #F7931A;
---blanco-hueso: #FFE9D5;
---celeste: #1A9AF7;
---cielo: #E7F5FF;
---negro: #201E1C;
---negro2: #282623;
---gris: #BABABA;
---blanco-claro: #FAF8F7;
---blanco: #FFFFFF;
+.JuanPablo{
+    background-color:var(--blanco-claro);
 }
+.segunda2{
+    height:40rem ;
+    width:37.5rem ;
+    position: relative;
+    display: inline-block;
+
+}
+.imagen1{
+    height:43rem ;
+    width:37.5rem ;
+}
+.texto1{
+    position: absolute;
+    top: 7rem;
+    left: 9rem;
+    color: var(--blanco);
+    font-size: 2.5rem;
+}
+.texto2{
+    text-align: center;
+    margin-top:7rem;
+    font-size: 3rem;
+}
+.texto3{
+    text-align: center;
+    margin-top:3.2rem;
+    font-size: 1.8rem;
+    color: var(--gris)
+}
+.tercera3{
+    height: 35rem ;
+    width: 25rem;
+    background-color: var(--blanco);
+    margin-top: 7rem;
+    margin-left: 6.5rem;
+    border-radius: 1.5rem;
+    position: absolute;
+    bottom: 0.5rem;
+    top: 328rem;
+}
+
+.cuarta4{
+    height: 4rem;
+    width: 13rem;
+    background-color: var(--naranja);
+    border-radius: 1.5em;
+    color: var(--blanco);
+    text-align: center;
+    position: relative;
+    bottom: 2rem;
+    left: 6rem;
+}
+.texto4{
+    position: relative;
+    top:1rem;
+}
+.quinto5{
+    height: 17rem;
+    width: 20rem;
+    margin-left: 2.5rem;
+}
+.texto5{
+    text-align: center;
+    font-size: 2rem;
+}
+.texto6{
+    position: relative;
+    left: 5rem;
+    top: 2rem;
+}
+.texto7{
+    position: relative;
+    left: 6.5rem;
+    font-size: 6rem;
+    bottom: 1rem;
+}
+.texto8{
+    text-align: center;
+    color: var(--gris);
+}
+
+.sexto6{
+    height: 7rem;
+    width: 20rem;
+    background-color: var(--blanco-claro);
+    margin-top: 4rem;
+    border-color: var(--naranja);
+    border-style: solid;
+    position: absolute;
+    border-radius: 0.5rem;  
+    position: relative;
+    bottom: 3rem;
+}
+.texto9{
+    position: relative;
+    top: 0.3rem;
+    left: 1rem;
+    font-size: 2rem;
+
+}
+
+.flecha{
+    position: relative;
+    top: 1.2rem;
+    height: 4rem;
+    left: 0.3rem;
+}
+
+.a{
+    position: relative;
+    height: 2.5rem;
+    left: 24rem;
+    bottom: 3rem;
+}
+.b{
+    position: relative;
+    height: 2.5rem;
+    bottom: 3rem;
+    right: 9.5rem;
+}
+.septimo7{
+    height: 15rem;
+    width: 37.5rem;
+    background-color: var(--naranja);
+    position: relative;
+    top: 7rem;
+    right: 9rem;
+}
+.octavo8{
+    height: 10rem;
+    width: 30rem;
+    position: relative;
+    top: 2.5rem;
+    left: 3.5rem;
+}
+.texto10{
+    position: relative;
+    color: var(--blanco);
+    font-size: 2rem;
+    left: 4rem;
+    
+}
+.texto11{
+    position: relative;
+    color: var(--blanco);
+    font-size: 2rem;
+    left: 4rem;
+    top: 0.5rem;
+}
+.texto12{
+    position: relative;
+    color: var(--blanco);
+    font-size: 2rem;
+    left: 4rem;
+    top: 1rem;
+}
+.c{
+    position: relative;
+    height: 4rem;
+    bottom: 6.5rem;
+    left: 21rem;
+}
+.nov9{
+    height: 3.5rem;
+    width: 10rem;
+    position: relative;
+    bottom: 7rem;
+    left: 19rem;
+}.texto13{
+    position: relative;
+    font-size: 2.5rem;
+    color:var(--blanco);
+
+}
+.texto14{
+    position: relative;
+    font-size: 1.3rem;
+    color:var(--blanco);
+    bottom: 3rem;
+    left: 1.5rem;
+
+}
+.rectangulo1{
+    height: 35rem ;
+    width: 5rem;
+    background-color: var(--blanco);
+    position: relative;
+    top: 9.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+.rectangulo2{
+    height: 35rem ;
+    width: 5rem;
+    background-color: var(--blanco);
+    position: relative;
+    left: 32.5rem;
+    bottom: 25.3rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 0rem;
+    white-space: normal !important;
+}
+
