@@ -1,4 +1,3 @@
-
 .JuanPablo{
     background-color:var(--blanco-claro);
 }
@@ -127,8 +126,9 @@
     width: 37.5rem;
     background-color: var(--naranja);
     position: relative;
-    top: 7rem;
-    right: 9rem;
+    top: 23rem;
+    right: 6.5rem;
+    overflow: hidden;
 }
 .octavo8{
     height: 10rem;
@@ -192,6 +192,7 @@
     top: 9.5rem;
     border-bottom-right-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
+
 }
 .rectangulo2{
     height: 35rem ;
@@ -204,5 +205,39 @@
     border-top-left-radius: 1.5rem;
     border-bottom-right-radius: 0rem;
     white-space: normal !important;
-}
 
+}
+/**
+@media only screen and (max-width:768px) {
+
+    .imagen1{
+        
+        width: 768px;
+        height: 400px;
+    
+    }
+    .JuanPablo{
+        width: 768px;
+        background-color: cornflowerblue;
+    }
+    .texto2{
+        margin-right: 176px;
+        margin-left: 152px;
+        font-size: 3rem;
+        bottom: 2rem;
+    }
+    .texto3{
+        margin-right: 100px;
+        margin-left: 77px;
+        font-size: 1.5rem;
+    }
+    .septimo7{
+        width: 768px;
+        height: 271px;
+    }
+    .tercera3{
+
+        
+    }
+}
+**/
