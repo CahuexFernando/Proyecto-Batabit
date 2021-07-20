@@ -7,7 +7,7 @@
     flex-direction: column;
     align-items: center;
     text-align: start;
-    height: 110rem;
+    height: 115rem;
    
 }
 .caja-inicio2{
@@ -68,7 +68,7 @@ box-shadow: 0px 6px 2px -3px rgba(0,0,0,0.56);
         width: auto;
         height: 20rem;
       
-        margin-top: 10rem;
+        margin-top: 1rem;
     }
     .cajas-contenido2{
         display: flex;
@@ -78,20 +78,28 @@ box-shadow: 0px 6px 2px -3px rgba(0,0,0,0.56);
         
     }
     .caja1-2, .caja2-2, .caja3-2, .caja4-2{
-        width: 28rem;
-        height: 14rem;
+        width: 35rem;
+        height: 18rem;
         margin-left: 1rem;
     }
     .titulo-2{
-        margin-top: 5rem;
+        margin-top: 7rem;
     }
     .texto-2{
         margin-top: 2rem;
     }
     .titulo-cajas2{
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
     .texto-cajas2{
-        font-size: 1.1rem;
+        font-size: 1.4rem;
+        margin-top: 1rem;
     }
+}
+/* Soporte para laptop*/
+@media only screen and (width:1366px) {
+.Fernando{
+    background-color: red;
+}
+
 }
