@@ -57,7 +57,7 @@ box-shadow: 0px 6px 2px -3px rgba(0,0,0,0.56);
     font-size: 1.5rem;
 }
 /* soporte para ipad*/
-@media only screen and (width:768px) {
+@media only screen and (max-width:768px) {
     .Fernando{
         width: auto;
         padding: 0;
@@ -97,9 +97,10 @@ box-shadow: 0px 6px 2px -3px rgba(0,0,0,0.56);
     }
 }
 /* Soporte para laptop*/
-@media only screen and (width:1366px) {
+@media only screen and (min-width:1366px) {
 .Fernando{
-    background-color: red;
+        width: auto;
+        height: 150rem;
 }
 
 }
