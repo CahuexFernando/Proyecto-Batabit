@@ -15,8 +15,22 @@
 --blanco-claro: #FAF8F7;
 --blanco: #FFFFFF;
 }
+html{
+    font-size: 10px;
+}
+section{
+    height: 200rem;
+    width:  37.5rem;
+    margin: auto;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+@media only screen and (min-width: 375px){
 .Pablo{
     background-color: var(--blanco-claro);
+    width:  37.5rem;
+    margin: auto;
+    margin-bottom: 10px;
 }
 .Caja-Frase{
     width: 37.5rem;
@@ -134,6 +148,9 @@
    margin-top: 2rem;
 
 }
+.Caja-Comisiones{
+    display: none;
+ }
 .Monedas{
     font-size: 3rem;
     color: var(--naranja);
@@ -141,6 +158,9 @@
     text-align: left;
     font-weight: 700; 
     margin-left: 6rem;
+}
+.Comisiones{
+    display: none; 
 }
 .Extremos-Izq{
     width: 14.8rem;
@@ -214,6 +234,20 @@
     padding-left: 1rem;
     box-sizing: border-box;
     padding: 0.8rem;
+
+}
+.Valores-1{
+    display: none;
+}
+.Valores-1 p{
+    display: none;
+}
+.Valores-2{
+    display: none;
+}
+.Valores-2 p{
+    display: none;
+    
 }
 /*Parte de actualizado*/
 .Caja-Actualizar{
@@ -224,8 +258,555 @@
      height: 6rem;
      background-color:var(--blanco-hueso);
      border-radius: 0.5rem;
+     
 }
 .Caja-Actualizar p{
      margin: auto;
      font-size: 1.60rem;
 }
+}
+@media only screen and (min-width: 768px){
+.Pablo{
+    width:  76.8rem;
+    margin-bottom: 10px;
+    }
+.Caja-Frase{
+    width: 76.8rem;
+    height: 50rem;
+    padding: 6rem 12rem 6rem 12rem; 
+    box-sizing: border-box;
+}
+  /*Parte de imagen y logo*/
+  .Frase-Img{
+    width: 30rem;
+    display: flex;
+    margin: auto;
+    margin-left: 15rem;
+}
+.Batatabit{
+    font-size: 4rem;
+    color: var(--naranja); 
+    font-weight: 500;
+    margin-left:1rem;
+}
+.batata{
+    width: 5rem;
+   float: left;
+   margin-top: 0.9rem;
+}
+/*Parte de frases*/
+
+.Frase-Revolucion{
+    font-size: 5rem;
+    
+    color: var(--blanco-claro);
+    margin-top: 2.5rem;
+    text-align: center;
+    font-weight: 500;
+    
+}
+.Frase-Ayuda{
+    text-align: center;
+    font-size: 2.3rem;
+    color: var(--blanco-hueso);
+    margin-top: 2.5rem;
+}
+/*Parte de conoce nuestros planes*/
+.Caja-Planes{
+    display: flex;
+    margin: auto;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    box-sizing: border-box;
+    width: 30rem;
+    height: 6rem;
+    background-color:var(--blanco-claro);
+    border-radius: 0.5rem;
+    margin-top: -4rem;
+    box-shadow: -4px -5px 69px -22px rgba(0,0,0,0.52);
+    -webkit-box-shadow: -4px -5px 69px -22px rgba(0,0,0,0.52);
+    -moz-box-shadow: -4px -5px 69px -22px rgba(0,0,0,0.52);
+}
+.Frase-Planes{
+    width: 27rem;
+    height: 6rem;
+    border-radius: 0.5rem;
+    background-color: var(--blanco-claro);
+}
+.Img-Planes{
+   width: 4rem;
+   height: 6rem;
+   border-radius: 0.5rem;
+   background-color: var(--blanco-claro);
+}
+.Planes{
+   font-size: 2rem;
+   font-weight: 595; 
+   text-align: center;
+   color: var(--negro2);
+   padding-top: 1.5rem;
+}
+.Flecha-Planes{
+ width: 3rem;
+ transform:rotate(90deg);
+ margin-top:1.4rem;
+}
+/*Parte de imagen grande*/
+.Caja-Img{
+   display: flex;
+   width: 70rem;
+   padding-top: 5rem;
+   margin: auto;
+}
+.Bitcoin{
+   width: 25rem;
+   margin: auto;
+}
+/*Parte de frase*/
+.Caja-Frase-2{
+    padding: 1rem 15rem 2rem 15rem;
+    box-sizing: border-box;
+}
+ .Frase-2{
+    font-size: 4rem;
+    color: var(--negro2);
+    margin-top: 2.8rem;
+    text-align: center;
+    font-weight: 700;
+}
+.Informacion{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(180, 180, 180);
+    margin-top: 3rem;
+}
+/*Parte de monedas*/ 
+.Caja-Principal{
+    width: 55rem;
+    height: 50rem;
+    margin: auto;
+    margin-top: 8rem;
+ }
+.Caja-1{
+    width: 22rem;
+    height: 50rem;
+    margin-top: 2rem; 
+    float: left;
+ }
+ .Caja-2{
+    width: 22rem;
+    height: 50rem;
+    margin-left: 2rem;
+    margin-top: 2rem; 
+    float: right;
+ }
+.Caja-Precios{
+    width: 22rem;
+    height: 25rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row; 
+    float: left;
+ }
+ .Caja-Comisiones{
+    width: 22rem;
+    height: 25rem;
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: row;
+ }
+ .Monedas{
+     font-size: 2.5rem;
+     margin-left: 0.5rem;
+     color: var(--naranja);
+     text-align: left;
+     font-weight: 700; 
+}
+.Comisiones{
+    font-size: 2.5rem;
+    margin-left: 0.5rem;
+    color: var(--celeste);
+    text-align: left;
+    font-weight: 700; 
+    display: flex;
+    margin-top: 2.5rem;
+}
+ .Extremos-Izq{
+     width: 10.8rem;
+     height: 5rem;
+     background-color: var(--blanco);
+     margin: 0.1rem;
+     font-size: 2rem;
+     color:var(--gris);
+     border-radius: 1rem 0.1rem 0.1rem 0.1rem ;
+     padding-left: 1rem;
+     box-sizing: border-box;
+     padding: 0.8rem;
+ }
+ .Extremos-Izq-i{
+     width: 10.8rem;
+     height: 5rem;
+     background-color: var(--blanco);
+     margin: 0.1rem;
+     font-size: 2rem;
+     color:var(--gris);
+     border-radius: 0.1rem 0.1rem 0.1rem 1rem ;
+     padding-left: 1rem;
+     box-sizing: border-box;
+     padding: 0.8rem;
+ }
+ .Centros-Izq{
+     width: 10.8rem;
+     height: 5rem;
+     background-color: var(--blanco);
+     margin: 0.1rem;
+     font-size: 1.85rem;
+     color:var(--gris);
+     border-radius: 0.1rem 0.1rem 0.1rem 0.1rem ;
+     padding-left: 1rem;
+     box-sizing: border-box;
+     padding: 0.8rem;
+ }
+ .Extremos-Drh{
+     width: 10.8rem;
+     height: 5rem;
+     background-color: var(--blanco);
+     margin: 0.1rem;
+     font-size: 2rem;
+     color:grey;
+     border-radius: 0.1rem 1rem 0.1rem 0.1rem ;
+     padding-left: 1rem;
+     box-sizing: border-box;
+     padding: 0.8rem;
+ }
+ .Extremos-Drh-i{
+     width: 10.8rem;
+     height: 5rem;
+     background-color: var(--blanco);
+     margin: 0.1rem;
+     font-size: 2rem;
+     color:grey;
+     border-radius: 0.1rem 0.1rem 1rem 0.1rem ;
+     padding-left: 1rem;
+     box-sizing: border-box;
+     padding: 0.8rem;
+ }
+ 
+ .Centros-Drh{
+     width: 10.8rem;
+     height: 5rem;
+     background-color: var(--blanco);
+     margin: 0.1rem;
+     font-size: 1.85rem;
+     color:grey;
+     border-radius: 0.1rem 0.1rem 0.1rem 0.1rem ;
+     padding-left: 1rem;
+     box-sizing: border-box;
+     padding: 0.8rem;
+ }
+  /*Parte de valores*/
+.Valores-1{
+    display: flex;
+     width: 18rem;
+     height: 5rem;
+     background-color:hsla(0, 100%, 83%, 0.301);
+     border-radius: 1rem;
+}
+.Valores-1 p{
+    margin: auto;
+    font-size: 2em;
+    display: flex;
+}
+.Valores-2{
+    display: flex;
+     width: 18rem;
+     height: 5rem;
+     background-color:hsla(205, 100%, 72%, 0.301);
+     border-radius: 1rem;
+}
+.Valores-2 p{
+    margin: auto;
+    font-size: 2rem;
+    display: flex;
+}
+ /*Parte de actualizado*/
+.Caja-Actualizar{
+    display: none;
+     margin: auto;
+     margin-top: -15rem;
+     width: 25rem;
+     height: 6rem;
+     background-color:var(--blanco-hueso);
+     border-radius: 0.5rem;
+     
+}
+.Caja-Actualizar p{
+    display:none; 
+    margin: auto;
+     font-size: 1.60rem;
+}
+}
+@media only screen and (min-width: 1366px){
+.Pablo{
+    width:  136.6rem;
+    margin-bottom: 10px;
+        
+}
+.Caja-Frase{
+    width: 136.6rem;
+    height: 50rem;
+    padding: 6rem 12rem 6rem 12rem; 
+    box-sizing: border-box;
+}
+/*Parte de imagen y logo*/
+.Frase-Img{
+    width: 30rem;
+    display: flex;
+    margin: auto;
+    margin-left: 45rem;
+}
+.Batatabit{
+    font-size: 4rem;
+    color: var(--naranja); 
+    font-weight: 500;
+    margin-left:1rem;
+}
+.batata{
+    width: 5rem;
+   float: left;
+   margin-top: 0.9rem;
+}
+/*Parte de frases*/
+.Frase-Revolucion{
+    font-size: 6rem; 
+    margin-top: 2.5rem;
+    font-weight: 500; 
+}
+.Frase-Ayuda{
+    text-align: center;
+    font-size: 2.3rem;
+    width: 70rem;
+    margin-top: 2.5rem;
+    margin-left: 20rem;
+}
+/*Parte de conoce nuestros planes*/
+.Caja-Planes{
+    display: flex;
+    margin: auto;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    box-sizing: border-box;
+    width: 40rem;
+    height: 6rem;
+    border-radius: 0.5rem;
+    margin-top: -3rem;
+}
+.Frase-Planes{
+    width: 30rem;
+    height: 6rem;
+    border-radius: 0.5rem;
+}
+.Img-Planes{
+   width: 4rem;
+   height: 6rem;
+   border-radius: 0.5rem;
+}
+.Planes{
+   font-size: 2rem;
+   font-weight: 595; 
+   text-align: right;
+   padding-top: 1.5rem;
+   margin-right: 2rem;
+}
+.Flecha-Planes{
+ width: 3rem;
+ transform:rotate(90deg);
+ margin-top:1.4rem;
+}
+/*Parte de imagen grande*/
+.Caja-Img{
+   display: flex;
+   width: 90rem;
+   padding-top: 7rem;
+   margin: auto;
+}
+.Bitcoin{
+   width: 25rem;
+   margin: auto;
+}
+/*Parte de frase*/
+.Caja-Frase-2{
+    padding: 1rem 15rem 2rem 15rem;
+    box-sizing: border-box;
+}
+ .Frase-2{
+    font-size: 4rem;
+    width: 45rem;
+    margin-top: 2.8rem;
+    margin-left: 30rem;
+    text-align: center;
+    font-weight: 700;
+}
+.Informacion{
+    text-align: center;
+    width: 47rem;
+    font-size: 2rem;
+    margin-left: 29rem;
+    margin-top: 3rem;
+}
+/*Parte de monedas*/ 
+.Caja-Principal{
+    width: 80rem;
+    height: 60rem;
+    margin: auto;
+    margin-top: 8rem;
+    
+ }
+.Caja-1{
+    width: 27rem;
+    height: 57rem;
+    margin-top: 2rem; 
+    float: left;
+ }
+ .Caja-2{
+    width: 27rem;
+    height: 57rem;
+    margin-left: 2rem;
+    margin-top: 2rem; 
+    float: right;
+ }
+.Caja-Precios{
+    width: 27rem;
+    height: 25rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row; 
+    float: left;
+ }
+ .Caja-Comisiones{
+    width: 27rem;
+    height: 25rem;
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: row;
+ }
+ .Monedas{
+     font-size: 3rem;
+     margin-left: 0.5rem;
+     color: var(--naranja);
+     text-align: left;
+     font-weight: 700; 
+}
+.Comisiones{
+    font-size: 3rem;
+    margin-left: 0.5rem;
+    color: var(--celeste);
+    text-align: left;
+    font-weight: 700; 
+    display: flex;
+    margin-top: 2.5rem;
+}
+ .Extremos-Izq{
+     width: 15rem;
+     height: 5rem;
+     background-color: var(--blanco);
+     margin: 0.1rem;
+     font-size: 2.5rem;
+     color:var(--gris);
+     border-radius: 1rem 0.1rem 0.1rem 0.1rem ;
+     padding-left: 1rem;
+     box-sizing: border-box;
+     padding: 0.8rem;
+ }
+ .Extremos-Izq-i{
+     width: 15rem;
+     height: 5rem;
+     background-color: var(--blanco);
+     margin: 0.1rem;
+     font-size: 2.5rem;
+     color:var(--gris);
+     border-radius: 0.1rem 0.1rem 0.1rem 1rem ;
+     padding-left: 1rem;
+     box-sizing: border-box;
+     padding: 0.8rem;
+ }
+ .Centros-Izq{
+     width: 15rem;
+     height: 5rem;
+     background-color: var(--blanco);
+     margin: 0.1rem;
+     font-size: 2.2rem;
+     color:var(--gris);
+     border-radius: 0.1rem 0.1rem 0.1rem 0.1rem ;
+     padding-left: 1rem;
+     box-sizing: border-box;
+     padding: 0.8rem;
+ }
+ .Extremos-Drh{
+     width: 15rem;
+     height: 5rem;
+     background-color: var(--blanco);
+     margin: 0.1rem;
+     font-size: 2.5rem;
+     color:grey;
+     border-radius: 0.1rem 1rem 0.1rem 0.1rem ;
+     padding-left: 1rem;
+     box-sizing: border-box;
+     padding: 0.8rem;
+ }
+ .Extremos-Drh-i{
+     width: 15rem;
+     height: 5rem;
+     background-color: var(--blanco);
+     margin: 0.1rem;
+     font-size: 2.5rem;
+     color:grey;
+     border-radius: 0.1rem 0.1rem 1rem 0.1rem ;
+     padding-left: 1rem;
+     box-sizing: border-box;
+     padding: 0.8rem;
+ }
+ 
+ .Centros-Drh{
+     width: 15rem;
+     height: 5rem;
+     background-color: var(--blanco);
+     margin: 0.1rem;
+     font-size: 2.2rem;
+     padding-left: 1rem;
+     box-sizing: border-box;
+     padding: 0.8rem;
+ }
+   /*Parte de valores*/
+.Valores-1{
+    display: flex;
+     width: 22rem;
+     height: 7rem;
+     border-radius: 1rem;
+}
+.Valores-1 p{
+    margin: auto;
+    font-size: 2.3em;
+    display: flex;
+}
+.Valores-2{
+    display: flex;
+     width: 22rem;
+     height: 7rem;
+     border-radius: 1rem;
+}
+.Valores-2 p{
+    margin: auto;
+    font-size: 2.3rem;
+    display: flex;
+}
+ /*Parte de actualizado*/
+.Caja-Actualizar{
+    display: none;
+     
+}
+.Caja-Actualizar p{
+    display:none; 
+}
+}
+
+
+
