@@ -1,0 +1,10 @@
+# no colocar estas ectensiones.
+*.jpg
+*.png
+
+#algunas excepsiones
+!collins.jpg
+
+
+#Ignorar la capeta de imagenes
+#/img/
