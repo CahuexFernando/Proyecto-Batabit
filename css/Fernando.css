@@ -57,7 +57,7 @@ box-shadow: 0px 6px 2px -3px rgba(0,0,0,0.56);
     font-size: 1.5rem;
 }
 /* soporte para ipad*/
-@media only screen and (max-width:768px) {
+@media only screen and (min-width:768px) {
     .Fernando{
         width: auto;
         padding: 0;
@@ -102,5 +102,11 @@ box-shadow: 0px 6px 2px -3px rgba(0,0,0,0.56);
         width: auto;
         height: 150rem;
 }
-
+.caja1-2, .caja2-2, .caja3-2, .caja4-2{
+    width: 50rem;
+    height: 19rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    
+}
 }
