@@ -16,10 +16,15 @@
 --blanco-claro: #FAF8F7;
 --blanco: #FFFFFF;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Fernando-2
 html{
     font-size: 10px;
 }
 section{
+<<<<<<< HEAD
     height: 140rem;
     width:  37.5rem;
     margin: auto;
@@ -42,4 +47,10 @@ section{
 .texto-error{
     font-size: 5rem;
     color: var(--negro);
+=======
+    box-sizing: border-box;
+    width:  37.5rem;
+    margin: auto;
+    margin-bottom:3rem;
+>>>>>>> Fernando-2
 }
