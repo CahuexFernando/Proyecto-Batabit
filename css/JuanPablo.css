@@ -1,143 +1,132 @@
-*,
-*:before,
-*:after {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
 }
-.tex{
-        text-align: center;
- }
 .JuanPablo{
-   background-position: center center;
-    background-size: cover;
     background-color: var(--blanco-claro);
 }
-.Foto1{
-    height: 22rem;
-    width:  37.5rem;
-    position: absolute;
+.Imagen{
+    width: 37.5rem;
+    height: 24.5rem;
+    background-image: url(../img/bitcoinbaby.png);
 }
-.texto1{
-    position: relative;
-    top: 6rem;
-    right:1rem;
-    color: var(--blanco);
-}
-.texto2 {
-    background-color: var(--blanco-claro);
+.Text-imagen{
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-left: 14rem;
 }
-
-.texto3 {
-    color: var(--negro);
-    position: relative;
-    top: 19rem;
+.Text-plan{
+    text-align: center;
+    padding-top: 4rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
 }
-
-.texto4 {
-    color: var(--gris);
-    position: relative;
-    top: 21rem;
+.Text-Cual{
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 3.5rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-bottom: 2rem;
 }
-.CajaDePrecios {
-    height: 475px;
-    width: 616px;
-    max-width: 100%;
-    margin: 0 auto;
-    position: relative;
-    top: 24rem;
+.Cajas{
+    width: 37.4rem;
+    height: 24.5rem;
+    flex-grow: 4;
+    padding-top: 3rem;
+        max-width: 100%;
 }
-.CajaDePrecios2 {
-    overflow-y: scroll;
-    height: 367px;
-    width: 616px;
-    max-width: 100%;
-    display: flex;
+.Cajas1{
+     overflow-x: scroll;
+      max-width: 100%;
+        display: flex;
     align-items: center;
+    width: 37.4rem;
+    height: 22.5rem;
+    
 }
-.CajaDePrecios2::-webkit-scrollbar {
-    display: none;
-}
-.CajaChiquita {
+.Cajas2{
+    width: 37.4rem;
+    height: 21.5rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: .5rem;
+    grid-gap: .5rem;    
 }
-
-.Ch2 {
+.Cajas1::-webkit-scrollbar {
+    display: none;
+}
+.ch1{
     position: relative;
-    background-color: var(--blanco);
-    height: 350px;
-    width: 295px;
-    padding: 32px 20px 24px 20px;
-    border-radius: 8px;
+  background-color: var(--blanco);
+    display: inline-block;   
+    width: 15rem;
+    height: 21.5rem;
+    opacity: 50%;
+    left: -6.5rem;
+    border-radius: 0.5rem;
+}
+.ch2{
+    position: relative;
+    left: -4.5rem;
+  background-color: var(--blanco);
+    width: 15rem;
+    height: 21.5rem;
+    border-radius: 0.5rem;
+}
+.CajaNaranja{
+    position: relative;
+    left: 3.8rem;
+    bottom: 0.5rem;
+    height: 2rem;
+    width: 7.5rem;
     text-align: center;
-}
-.Ch2-title {
-    margin-bottom: .5rem;
-}
-.CajaNaranja {
-    position: absolute;
-    height: 2.5rem;
-    bottom: 20rem;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
     background-color: var(--naranja);
-    font-size: 0.90rem;
     font-weight: 700;
     color: var(--blanco);
     border-radius: 8px;
-}
-.precios, .Descripcion {
-    margin-bottom: 6rem;
-}
-
-.precios {
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
-    font-size: 4.5rem;
-    line-height: 3.9375rem;
-    letter-spacing: -3px;
-    position: relative;
-    width: fit-content;
-    margin: 0 auto;
-}
-.PrecioEnDolar {
-    position: absolute;
-    font-size: 2rem;
-    font-weight: 500;
-    top: -15px;
-    left: -19px;
-}
-.Descripcion {
-    color: var(--gris);
-    font-size: 1rem;
-    line-height: .9375rem;
-    font-weight: 500    ;
-    padding-top: 1rem;
+        align-items: center;
 }
 .TextoDePago{
-    padding-top: 1.2rem;
-    font-size: 1.5rem;
+    position: relative;
+    font-size: 1.1rem;
+    left: 4.5rem;
+    top: 0.5rem;
+}
+.precios{
+    position: relative;
+    font-size: 3.5rem;
+    left: 3.8rem;
+    top: 1.3rem;
+}
+.PrecioEnDolar{
+    font-size: 1.5rem;   
+}
+.Descripcion {
+    position: relative;
+    text-align: center;
+    color: var(--gris);
+    top: 3rem;
+    font-size: 0.8rem;
 }
 .TextoBoton {
-    border-radius: 4px;
-    width: 100%;
-    display: flex;
+    position: relative;
+    top: 6rem;
+    left: 3rem;
+    width: 9rem;
+    height: 3rem;
     align-items: center;
     justify-content: center;
-    height: 3rem;
-    padding: 0.9rem 1rem;
-    font-size: .875rem;
-    margin-right: .5rem;
     border: 2px solid var(--naranja);
     background-color: var(--blanco-claro);
+}
+.ch3{
+    position: relative;
+  background-color: var(--blanco);
+    width: 15rem;
+    height: 21.5rem; 
+    left: -2.5rem;
+    opacity: 50%;
+    border-radius: 0.5rem;
+    
 }
 .footer {
     background-color: var(--naranja);
@@ -146,14 +135,12 @@
 .Contenedor {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding: 1rem;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
     width: 300px;
     max-width: 100%;
     margin: auto;
 }
-
 .footer_link-item {
     display: block;
 }
@@ -176,53 +163,12 @@
 .Batata{
     width: 6.4rem;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 416px){
     .JuanPablo{
         width: 100%;
         background-color: var(--blanco-claro);
     }
-    .Foto1{
-        width: 100%;
-    }
-    .CajaDePrecios{
-        width: 99%;
-    }
-    .CajaDePrecios2{
-        width: 100%;
-    }
-    .Ch2{
-        height: 350px;
-        width: 248px;  
-    }
-    .CajaNaranja{
-        height: 2.5rem;
-        bottom: 19.8rem;
-    }
-    .Batata{
-        width: 5.5rem;
-    }
-}
-@media screen and (min-width: 1366px){
-    .JuanPablo{
-        width: 100%;
-        background-color: var(--blanco-claro);
-    }
-    .Foto1{
-        width: 100%;
-    }
-    .texto1{
-        font-size: 2.5rem;
-    }
-    .texto3{
-        font-size: 2.5rem;
-    }
-    .texto4{
-        font-size: 1.5rem;
-    }
-    .CajaDePrecios{
-        width: 67%;
-    }
-    .CajaDePrecios2{
+    .Imagen{
         width: 100%;
     }
 }
