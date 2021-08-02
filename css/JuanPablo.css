@@ -8,7 +8,7 @@
 .Imagen{
     width: 37.5rem;
     height: 24.5rem;
-    background-image: url(../img/bitcoinbaby.png);
+    background-image: url(../img/bitcoinbaby1.svg);
 }
 .Text-imagen{
     padding-top: 4rem;
@@ -170,5 +170,6 @@
     }
     .Imagen{
         width: 100%;
+        background-image: url(../img/bitcoinbaby2.svg);
     }
 }
