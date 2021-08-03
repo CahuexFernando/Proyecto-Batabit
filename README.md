@@ -62,5 +62,6 @@ https://cahuexfernando.github.io/Proyecto-Batabit/
 ------------
 
 # Objetivos futuros
-###### Propósito: 
+###### Investigación:
+Como meta a mediano plazo, queremos poner en práctica todos los conocimientos obtenidos durante el tercer período en el curso de Producción de Contenidos Digitales dentro del campo laboral, por medio de eso conseguiremos ganar experiencia y apertura a nuevos proyectos futuros.
 
