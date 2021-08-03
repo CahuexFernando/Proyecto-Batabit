@@ -47,7 +47,7 @@
 		img
 		js
 		Descripción del proyecto
-	Objetivos futuros
+	 Objetivos futuros
 		
 ------------
 
