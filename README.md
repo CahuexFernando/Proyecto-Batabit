@@ -64,7 +64,10 @@ Practicar cada tema aprendido en el curso de Producción de contenidos digitales
 Durante el tercer periodo en el curso de producción de contenidos digitales desarrollamos una página web, con la ayuda de HTML, CSS y JS, llamada Batatabit en la cual se puede encontrar información relevante a cerca de las criptomonedas.
 
 El proyecto se dividió en 3 secciones, cada integrante trabajo en una rama individual, la primera seccion la cual contiene, el precio de las criptomonedas fue hecha por el integrante **Pablo Franco**, la segunda sección la cual contiene información acerca de la empresa, fue hecha por **Fernando Cahuex**, la última sección, la cual contiene los paquetes de suscripción, fue hecha por **Juan Pablo Monroy**.
-#### Link
+
+#### Link del esquema
+https://www.figma.com/file/sMmlQaZldfDcLERYYWe6h4/Bata-Bit?node-id=359%3A154
+#### Link proyecto
 https://cahuexfernando.github.io/Proyecto-Batabit/
 
 ------------
