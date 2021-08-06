@@ -1,143 +1,176 @@
-*,
-*:before,
-*:after {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
 }
-.tex{
-        text-align: center;
- }
 .JuanPablo{
-   background-position: center center;
-    background-size: cover;
     background-color: var(--blanco-claro);
 }
-.Foto1{
-    height: 22rem;
-    width:  37.5rem;
-    position: absolute;
+.Imagen{
+    width: 37.5rem;
+    height: 24.5rem;
 }
-.texto1{
+.Img1{
+    width: 37.5rem;
+    height: 25rem;
+}
+.Text-imagen{
     position: relative;
-    top: 6rem;
-    right:1rem;
+    bottom: 20rem;
+    padding-left: 13.5rem;
     color: var(--blanco);
+    
 }
-.texto2 {
-    background-color: var(--blanco-claro);
+.Text-plan{
+    text-align: center;
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
 }
-
-.texto3 {
-    color: var(--negro);
-    position: relative;
-    top: 19rem;
+.Text-Cual{
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 3.5rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-bottom: 2rem;
 }
-
-.texto4 {
-    color: var(--gris);
-    position: relative;
-    top: 21rem;
-}
-.CajaDePrecios {
-    height: 475px;
-    width: 616px;
-    max-width: 100%;
-    margin: 0 auto;
-    position: relative;
-    top: 24rem;
-}
-.CajaDePrecios2 {
-    overflow-y: scroll;
-    height: 367px;
-    width: 616px;
-    max-width: 100%;
+.Cajas{
+    width: 37.4rem;
+    height: 24.5rem;
+    padding-top: 3rem;
     display: flex;
-    align-items: center;
+    overflow-y:scroll;
 }
-.CajaDePrecios2::-webkit-scrollbar {
+.Cajas1{
+     overflow-x:scroll;
+      max-width: 100%;
+        display: flex;
+    align-items: center;
+    width: 37.4rem;
+    height: 22.5rem;
+    
+}
+.Cajas2{
+    width: 37.4rem;
+    overflow-x:scroll;
+    height: 21.5rem;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: .5rem;  
+    display: grid;
+}
+.Cajas::-webkit-scrollbar {
+    display: none;
+}.Cajas2::-webkit-scrollbar {
     display: none;
 }
-.CajaChiquita {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: .5rem;
+.Cajas1::-webkit-scrollbar {
+    display: none;
 }
-
-.Ch2 {
+.ch1{
     position: relative;
-    background-color: var(--blanco);
-    height: 350px;
-    width: 295px;
-    padding: 32px 20px 24px 20px;
-    border-radius: 8px;
+  background-color: var(--blanco);
+    display: inline-block;   
+    width: 13rem;
+    height: 21.5rem;
+    left: -5rem;
+    border-radius: 0.5rem;
+}
+.TextoDePago1{
+    position: relative;
+    font-size: 1.1rem;
+    left: 3rem;
+    top: 2.6rem;
+}
+.precios1{
+    position: relative;
+    font-size: 3.5rem;
+    left: 3rem;
+    top: 3.4rem;
+}
+.PrecioEnDolar1{
+    font-size: 1.5rem; 
+}
+.Descripcion1{
+    position: relative;
     text-align: center;
+    color: var(--gris);
+    top: 3rem;
+    font-size: 0.8rem;
+    top: 5rem;
 }
-.Ch2-title {
-    margin-bottom: .5rem;
-}
-.CajaNaranja {
-    position: absolute;
-    height: 2.5rem;
-    bottom: 20rem;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
+.TextoBoton1{
+    position: relative;
+    top: 8rem;
+    left: 2rem;
+    width: 9rem;
+    height: 3rem;
     align-items: center;
     justify-content: center;
-    width: 150px;
+    border: 2px solid var(--naranja);
+    background-color: var(--blanco-claro);
+}
+.ch2{
+    position: relative;
+    left: -2.5rem;
+  background-color: var(--blanco);
+    width: 13.5rem;
+    height: 21.5rem;
+    border-radius: 0.5rem;
+}
+.CajaNaranja{
+    position: relative;
+    left: 3rem;
+    bottom: 0.5rem;
+    height: 2rem; 
+    width: 7.5rem;
+    text-align: center;
     background-color: var(--naranja);
-    font-size: 0.90rem;
     font-weight: 700;
     color: var(--blanco);
     border-radius: 8px;
-}
-.precios, .Descripcion {
-    margin-bottom: 6rem;
-}
-
-.precios {
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
-    font-size: 4.5rem;
-    line-height: 3.9375rem;
-    letter-spacing: -3px;
-    position: relative;
-    width: fit-content;
-    margin: 0 auto;
-}
-.PrecioEnDolar {
-    position: absolute;
-    font-size: 2rem;
-    font-weight: 500;
-    top: -15px;
-    left: -19px;
-}
-.Descripcion {
-    color: var(--gris);
-    font-size: 1rem;
-    line-height: .9375rem;
-    font-weight: 500    ;
-    padding-top: 1rem;
+        align-items: center;
 }
 .TextoDePago{
-    padding-top: 1.2rem;
-    font-size: 1.5rem;
+    position: relative;
+    font-size: 1.1rem;
+    left: 3.7rem;
+    top: 0.5rem;
+}
+.precios{
+    position: relative;
+    font-size: 3.5rem;
+    left: 3rem;
+    top: 1.3rem;
+}
+.PrecioEnDolar{
+    font-size: 1.5rem;   
+}
+.Descripcion {
+    position: relative;
+    text-align: center;
+    color: var(--gris);
+    top: 3rem;
+    font-size: 0.8rem;
 }
 .TextoBoton {
-    border-radius: 4px;
-    width: 100%;
-    display: flex;
+    position: relative;
+    top: 6rem;
+    left: 2.3rem;
+    width: 9rem;
+    height: 3rem;
     align-items: center;
     justify-content: center;
-    height: 3rem;
-    padding: 0.9rem 1rem;
-    font-size: .875rem;
-    margin-right: .5rem;
     border: 2px solid var(--naranja);
     background-color: var(--blanco-claro);
+}
+.ch3{
+    position: relative;
+  background-color: var(--blanco);
+    width: 13rem;
+    height: 21.5rem; 
+    left: -0.5rem;
+    border-radius: 0.5rem;
+    
 }
 .footer {
     background-color: var(--naranja);
@@ -146,14 +179,12 @@
 .Contenedor {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding: 1rem;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
     width: 300px;
     max-width: 100%;
     margin: auto;
 }
-
 .footer_link-item {
     display: block;
 }
@@ -176,53 +207,67 @@
 .Batata{
     width: 6.4rem;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 600px){
     .JuanPablo{
-        width: 100%;
+        width: 48rem;
         background-color: var(--blanco-claro);
     }
-    .Foto1{
-        width: 100%;
+    .Text-imagen{
+        left: 5rem;
     }
-    .CajaDePrecios{
-        width: 99%;
+    .Img1{
+        width: 48rem;
+        display: flex;
     }
-    .CajaDePrecios2{
-        width: 100%;
+    .Cajas{
+        width: 47.8rem;
     }
-    .Ch2{
-        height: 350px;
-        width: 248px;  
+    .Cajas1{
+        width: 47.8rem;
     }
-    .CajaNaranja{
-        height: 2.5rem;
-        bottom: 19.8rem;
+    .Cajas2{
+        width: 47.8rem;
     }
-    .Batata{
-        width: 5.5rem;
+    .ch1{
+        float: left;
+        left: 1rem;
     }
-}
-@media screen and (min-width: 1366px){
-    .JuanPablo{
-        width: 100%;
-        background-color: var(--blanco-claro);
+    .ch2{
+        left: 1rem;
     }
-    .Foto1{
-        width: 100%;
+    .ch3{
+        left: 2rem;
     }
-    .texto1{
-        font-size: 2.5rem;
     }
-    .texto3{
-        font-size: 2.5rem;
-    }
-    .texto4{
-        font-size: 1.5rem;
-    }
-    .CajaDePrecios{
-        width: 67%;
-    }
-    .CajaDePrecios2{
-        width: 100%;
+    @media screen and (min-width: 1200px){
+        .JuanPablo{
+            width: 84.2rem;
+            background-color: var(--blanco-claro);
+        }
+        .Img1{
+            width: 84.2rem;
+            display: flex;
+        }
+        .Text-imagen{
+            left: 23rem;
+        }
+        .Cajas{
+            width: 84rem;
+        }
+        .Cajas1{
+            width: 84rem;
+        }
+        .Cajas2{
+            width: 84rem;
+        }
+        .ch1{
+            float: left;
+            left: 12rem;
+        }
+        .ch2{
+            left: 7rem;
+        }
+        .ch3{
+            left: 2rem;
     }
 }
