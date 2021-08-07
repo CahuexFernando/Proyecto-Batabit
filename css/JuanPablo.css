@@ -207,67 +207,75 @@
 .Batata{
     width: 6.4rem;
 }
+
 @media screen and (min-width: 600px){
     .JuanPablo{
-        width: 48rem;
+     width: auto;   
         background-color: var(--blanco-claro);
     }
     .Text-imagen{
-        left: 5rem;
+        left: 19rem;
     }
     .Img1{
-        width: 48rem;
+        width: auto;
         display: flex;
     }
     .Cajas{
-        width: 47.8rem;
+        width: 70rem;
     }
     .Cajas1{
-        width: 47.8rem;
+        width: 70rem;
     }
     .Cajas2{
-        width: 47.8rem;
+        width: 70rem;
     }
     .ch1{
         float: left;
-        left: 1rem;
+        left: 7rem;
     }
     .ch2{
-        left: 1rem;
+        left: 7rem;
     }
     .ch3{
-        left: 2rem;
+        left: 7rem;
+    }
+    .TextoBoton{
+        font-size: 0.9rem;
+    }
+
+    .TextoBoton1{
+        font-size: 0.9rem;
     }
     }
     @media screen and (min-width: 1200px){
         .JuanPablo{
-            width: 84.2rem;
+            width: 100%;
             background-color: var(--blanco-claro);
         }
         .Img1{
-            width: 84.2rem;
+            width: 151.9rem;
             display: flex;
         }
         .Text-imagen{
             left: 23rem;
         }
         .Cajas{
-            width: 84rem;
+            width: 150rem;
         }
         .Cajas1{
-            width: 84rem;
+            width: 150rem;
         }
         .Cajas2{
-            width: 84rem;
+            width: 150rem;
         }
         .ch1{
             float: left;
-            left: 12rem;
+            left: 20rem;
         }
         .ch2{
-            left: 7rem;
+            left: 20rem;
         }
         .ch3{
-            left: 2rem;
+            left: 20rem;
     }
 }
