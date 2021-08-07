@@ -2,175 +2,206 @@
     margin: 0;
     padding: 0;
 }
-.JuanPablo{
+.JuanPablo1{
+    height: 140rem;
+    width:  37.5rem;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.img{
+    width: 100%;
+    height: 25rem;      
+}
+.img1{
+    width: 100%;
+    height: 25rem; 
+}
+.medio{
+    width: 100%;
+    height: 50rem;
     background-color: var(--blanco-claro);
 }
-.Imagen{
-    width: 37.5rem;
-    height: 24.5rem;
+.texto1{
+    width: 100%;
+    height: 10rem;  
+    text-align:center;
 }
-.Img1{
-    width: 37.5rem;
-    height: 25rem;
+.titulo{
+    font-size: 2rem;
+    margin-left: 2.7rem;
+    margin-right: 2.7rem;
+    padding-top: 1.2rem;
 }
-.Text-imagen{
-    position: relative;
-    bottom: 20rem;
-    padding-left: 13.5rem;
-    color: var(--blanco);
-    
+.SubTitulo{
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
-.Text-plan{
-    text-align: center;
-    padding-top: 4rem;
-    padding-left: 7rem;
-    padding-right: 7rem;
+.caja{
+    width: 100% ;
+    height: 20rem;
+    margin-top: 2rem
 }
-.Text-Cual{
-    text-align: center;
-    font-size: 1rem;
-    padding-top: 3.5rem;
-    padding-left: 7rem;
-    padding-right: 7rem;
-    padding-bottom: 2rem;
-}
-.Cajas{
-    width: 37.4rem;
-    height: 24.5rem;
-    padding-top: 3rem;
+.cajas-fusion{
+    width: 100%;
+    height: auto;
     display: flex;
-    overflow-y:scroll;
+    flex-direction:row;
 }
-.Cajas1{
-     overflow-x:scroll;
-      max-width: 100%;
-        display: flex;
-    align-items: center;
-    width: 37.4rem;
-    height: 22.5rem;
+.caja-izquierda{
+    width: 12rem;
+    height: 30rem;
+    background-color: var(--blanco);
+    border-radius: 0rem 1rem 1rem 0rem;
+    margin-top: 3rem;
     
 }
-.Cajas2{
-    width: 37.4rem;
-    overflow-x:scroll;
-    height: 21.5rem;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: .5rem;  
-    display: grid;
+.caja-centro-contenedor{
+    width: 31rem;
+    height: 30rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
 }
-.Cajas::-webkit-scrollbar {
-    display: none;
-}.Cajas2::-webkit-scrollbar {
-    display: none;
+.caja-centro{
+    width: 20rem;
+    height: 25rem;
+    background-color: var(--blanco);
+    border-radius: 1rem;
+    padding-top: 3rem;
 }
-.Cajas1::-webkit-scrollbar {
-    display: none;
+.caja-derecha{
+    width: 12rem;
+    height: 30rem;
+    background-color: var(--blanco);
+    border-radius: 1rem 0rem 0rem 1rem;
+    margin-top: 3rem;
 }
-.ch1{
-    position: relative;
-  background-color: var(--blanco);
-    display: inline-block;   
-    width: 13rem;
-    height: 21.5rem;
-    left: -5rem;
-    border-radius: 0.5rem;
-}
-.TextoDePago1{
-    position: relative;
-    font-size: 1.1rem;
-    left: 3rem;
-    top: 2.6rem;
-}
-.precios1{
-    position: relative;
-    font-size: 3.5rem;
-    left: 3rem;
-    top: 3.4rem;
-}
-.PrecioEnDolar1{
-    font-size: 1.5rem; 
-}
-.Descripcion1{
-    position: relative;
-    text-align: center;
-    color: var(--gris);
-    top: 3rem;
-    font-size: 0.8rem;
-    top: 5rem;
-}
-.TextoBoton1{
-    position: relative;
-    top: 8rem;
-    left: 2rem;
+.recomendado{
     width: 9rem;
     height: 3rem;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid var(--naranja);
-    background-color: var(--blanco-claro);
-}
-.ch2{
-    position: relative;
-    left: -2.5rem;
-  background-color: var(--blanco);
-    width: 13.5rem;
-    height: 21.5rem;
-    border-radius: 0.5rem;
-}
-.CajaNaranja{
-    position: relative;
-    left: 3rem;
-    bottom: 0.5rem;
-    height: 2rem; 
-    width: 7.5rem;
-    text-align: center;
     background-color: var(--naranja);
-    font-weight: 700;
-    color: var(--blanco);
-    border-radius: 8px;
-        align-items: center;
-}
-.TextoDePago{
-    position: relative;
-    font-size: 1.1rem;
-    left: 3.7rem;
-    top: 0.5rem;
-}
-.precios{
-    position: relative;
-    font-size: 3.5rem;
-    left: 3rem;
-    top: 1.3rem;
-}
-.PrecioEnDolar{
-    font-size: 1.5rem;   
-}
-.Descripcion {
-    position: relative;
+    border-radius: 1rem;
     text-align: center;
-    color: var(--gris);
-    top: 3rem;
-    font-size: 0.8rem;
-}
-.TextoBoton {
+    margin-left: 5.5rem;
     position: relative;
-    top: 6rem;
-    left: 2.3rem;
-    width: 9rem;
-    height: 3rem;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid var(--naranja);
+    top: 2rem;    
+}
+.recomendadoTXT{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.pago-anual{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.presio-contenedor{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding-left: 6rem;
+    margin: auto;
+}
+.precio{
+    font-size: 5.5rem;
+}
+.simbolo{
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+.texto-caja-central{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.boton-escoger-contenedor{
+    width: 14rem;
+    height: 3.5rem;
+    background-color:var(--naranja);
+    margin: auto;
+    margin-top: 6rem;
+    padding-top: 0.3rem;
+    border-radius: 0.5rem;
+}
+.texto-caja-central{
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: var(--gris);
+}
+.boton-escoger{
+    width: 13.3rem;
+    height: 3.2rem;
+    background-color:var(--blanco-claro);
+    margin: auto;
+    border-radius: 0.5rem;
+}
+.escogerTXT{
+    font-size: 0.8;
+    text-align: center;
+}
+
+.preguntas{
+    width: 100%;
+    height: 45rem;
     background-color: var(--blanco-claro);
 }
-.ch3{
-    position: relative;
-  background-color: var(--blanco);
-    width: 13rem;
-    height: 21.5rem; 
-    left: -0.5rem;
-    border-radius: 0.5rem;
-    
+.Titulo-Pregunta{
+    text-align: center;
+    font-size: 2.6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.caja1{
+    margin-top: 2rem;
+    width: 100%;
+    height: 4rem;
+}
+.caja2{
+    width: 100%;
+    height: 4rem;
+}
+.caja3{
+    width: 100%;
+    height: 4rem;
+}
+.caja4{
+    width: 100%;
+    height: 4rem;
+}
+.cj1{
+    width: 3rem;
+    height: 3rem;
+    margin-top: -1.4rem;
+    margin-left: 30rem;
+}
+.cj2{
+    width: 3rem;
+    height: 3rem;
+    margin-top: -1rem;
+    margin-left: 30rem;
+}
+.cj3{
+    width: 3rem;
+    height: 3rem;
+    margin-top: -1rem;
+    margin-left: 30rem;
+}
+.cj4{
+    width: 3rem;
+    height: 3rem;
+    margin-top: -1rem;
+    margin-left: 30rem;
+}
+.caja1TXT{
+    width: 70%;
+    margin-left: 2rem;
+    color:var(--gris);
 }
 .footer {
     background-color: var(--naranja);
@@ -207,67 +238,191 @@
 .Batata{
     width: 6.4rem;
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 700px){
+
     .JuanPablo{
-        width: 48rem;
-        background-color: var(--blanco-claro);
+        width: 100%;
     }
-    .Text-imagen{
-        left: 5rem;
+    .JuanPablo1{
+        width: 100%;
     }
-    .Img1{
-        width: 48rem;
-        display: flex;
+    .medio{
+        width: 100%;
+
     }
-    .Cajas{
-        width: 47.8rem;
+    .caja-derecha{
+        border-radius: 1rem;
     }
-    .Cajas1{
-        width: 47.8rem;
+    .caja-izquierda{
+        border-radius: 1rem;
     }
-    .Cajas2{
-        width: 47.8rem;
+    .titulo{
+        margin-left: 8rem;
+        margin-right: 8rem;
     }
-    .ch1{
-        float: left;
-        left: 1rem;
+    .SubTitulo{
+        margin-left: 8rem;
+        margin-right: 8rem;
     }
-    .ch2{
-        left: 1rem;
+    .cajas-fusion{
+        width: 100%;
     }
-    .ch3{
-        left: 2rem;
+    .caja-izquierda{
+        width: 18rem;
+        height: 30rem;
+        margin: auto;
+        margin-top: 3rem;
     }
+    .caja-centro{
+        width: 19rem;
+        height: 27rem;
+        margin: auto;
     }
-    @media screen and (min-width: 1200px){
-        .JuanPablo{
-            width: 84.2rem;
-            background-color: var(--blanco-claro);
-        }
-        .Img1{
-            width: 84.2rem;
-            display: flex;
-        }
-        .Text-imagen{
-            left: 23rem;
-        }
-        .Cajas{
-            width: 84rem;
-        }
-        .Cajas1{
-            width: 84rem;
-        }
-        .Cajas2{
-            width: 84rem;
-        }
-        .ch1{
-            float: left;
-            left: 12rem;
-        }
-        .ch2{
-            left: 7rem;
-        }
-        .ch3{
-            left: 2rem;
+    .caja-derecha{
+        width: 20rem;
+        height: 30rem;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .Titulo-Pregunta{
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+    .preguntas{
+        margin: auto;
+        width: 100%;
+    }
+    .cajas-preguntas{
+        margin: auto;
+        width: 60%;
+    }
+    .caja1{
+        margin: auto;
+    }
+    .caja1TXT{
+        width: 70%;
+        font-size: 1.2rem;
+    }
+    .cj1{
+        width: 3rem;
+        height: 3rem;
+        margin-top: -3rem;
+        margin-left: 25rem;
+    }
+    .cj2{
+        width: 3rem;
+        height: 3rem;
+        margin-top: -1.5rem;
+        margin-left: 25rem;
+    }
+    .cj3{
+        width: 3rem;
+        height: 3rem;
+        margin-top: -3rem;
+        margin-left: 25rem;
+    }
+    .cj4{
+        width: 3rem;
+        height: 3rem;
+        margin-top: -1.5rem;
+        margin-left: 25rem;
+    }
+    .caja1TXT{
+        font-size: 1.3rem;
+    }
+    .cajas-preguntas{
+        margin-top: 2rem;
+    }
+}
+@media screen and (min-width: 1300px){
+
+    .JuanPablo{
+        width: 100%;
+    }
+    .JuanPablo1{
+        width: 100%;
+    }
+    .medio{
+        width: 100%;
+
+    }
+    .recomendado{
+        left: 5.5rem;
+    }
+    .caja-derecha{
+        border-radius: 1rem;
+    }
+    .caja-izquierda{
+        border-radius: 1rem;
+    }
+    .preguntas{
+        margin: auto;
+        width: 100%;
+    }
+    .cajas-preguntas{
+        margin: auto;
+        width: 40%;
+    }
+    .caja1{
+        margin: auto;
+    }
+    .caja1TXT{
+        width: 70%;
+        font-size: 1.2rem;
+    }
+    .cj1{
+
+        margin-left: 27.5rem;
+    }
+    .cj2{
+        margin-left: 27.5rem;
+    }
+    .cj3{
+        margin-left: 27.5rem;
+    }
+    .cj4{
+        margin-left: 27.5rem;
+    }
+    .cajas-preguntas{
+        margin-top: 2rem;
+    }
+}
+@media screen and (min-width: 1800px){
+
+
+    .recomendado{
+        left: 5.5rem;
+    }
+    .caja-derecha{
+        border-radius: 1rem;
+    }
+    .caja-izquierda{
+        border-radius: 1rem;
+    }
+    .preguntas{
+        margin: auto;
+        width: 100%;
+    }
+    .cajas-preguntas{
+        margin: auto;
+        width: 35%;
+    }
+    .caja1TXT{
+        font-size: 1.5rem;
+    }
+    .cj1{
+        margin-left: 34rem;
+    }
+    .cj2{
+        margin-left: 34rem;
+    }
+    .cj3{
+        margin-left: 34rem;
+    }
+    .cj4{
+        margin-left: 34rem;
+    }
+    .cajas-preguntas{
+        margin-top: 2rem;
     }
 }
